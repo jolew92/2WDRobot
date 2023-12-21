@@ -4,8 +4,8 @@ import time
 SOUND_SPEED=340 
 TRIG_PULSE_DURATION_US=10
 
-trig_pin = Pin(16, Pin.OUT) 
-echo_pin = Pin(17, Pin.IN)  
+trig_pin = Pin(14, Pin.OUT) 
+echo_pin = Pin(15, Pin.IN)  
 
 while True:
     trig_pin.value(0)
